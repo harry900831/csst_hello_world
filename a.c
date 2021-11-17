@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() { 
-	puts("Hello World!");
+	char name[50];
+	scanf("%d", name);
+	printf("Hello, %s!\n", name);
 	return 0;
 }
 
