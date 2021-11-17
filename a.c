@@ -2,8 +2,9 @@
 
 int main() { 
 	char name[50];
-	scanf("%d", name);
-	printf("Hello, %s!\n", name);
+	int age;
+	scanf("%d %d", name, &age);
+	printf("Hello, %s! Your age is: \n", name, age);
 	return 0;
 }
 
